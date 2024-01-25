@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<p> Aulona Halitiii </p>
+
+<button onclick="myFunction()">Add</button>
+<div id="divv">
+
+    I am a DIV.
+
+</div>
+
+<script>
+    
+    function myFunction() {
+        const list =
+        document.getElementById("divv").classList;
+        list.add("mystyle");
+    }
+
+const atributi = document.createElement("p");
+atributi.innerText = "Ky eshte nje paragraf i paraqitur me append";
+
+document.body.appendChild(atributi);
+
+</script>
+
+</body>
+</html>
